@@ -11,7 +11,7 @@ export function Home() {
 
     return (
         // This is the home page where the user has access to the nav bar, a filter, and their different dog options
-        <div style={{ padding: '20px', border: '1px solid #ccc', margin: '10px' }}>
+        <div>
 
             <h2 className={"Title"}>PupSupport</h2>
             <p>Welcome to PupSupport!</p>
@@ -24,7 +24,14 @@ export function Home() {
             {/*< Filter />*/}
             {/*This consists of the different information a user can see at first glance on a specific dog*/}
             {/*Some content would include: The name of the dog, a description, and its temperament tags as well */}
-            <DogCard />
+            <div className={"DogCardLayout"}>
+                <DogCard />
+                <DogCard />
+                <DogCard />
+            </div>
+
+
+
 
 
 

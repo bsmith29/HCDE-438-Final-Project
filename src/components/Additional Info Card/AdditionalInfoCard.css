@@ -1,0 +1,39 @@
+.CardLayout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.Card {
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 550px;
+    height: 550px;
+    margin: 10px;
+}
+.Card:hover {
+    transform: scale(1.05);
+}
+.CardContent {
+    display: flex;
+    flex-direction: column;
+}
+.Image{
+    border-radius: 50px 50px 0 0;
+    width: 550px;
+    height: 300px;
+    object-fit: cover;
+    gap: 2rem;
+}
+.CardHeader {
+    font-family: Lora, "Times New Roman", serif;
+    font-size: 30px;
+}
+.CardDescription {
+    font-family: "Roboto Light", sans-serif;
+    font-size: 15px;
+    padding: 10px;
+}

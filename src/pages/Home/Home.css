@@ -6,4 +6,8 @@
     padding-top: 0;
     padding-bottom: 5px;
 }
-
+.DogCardLayout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

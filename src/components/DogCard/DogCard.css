@@ -1,8 +1,17 @@
+.DogCardLayout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .DogCard {
     border-radius: 50px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 350px;
+    height: 350px;
+    margin: 10px;
 }
 .DogCard:hover {
     transform: scale(1.05);
@@ -13,12 +22,18 @@
 }
 .DogImage{
     border-radius: 50px 50px 0 0;
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    gap: 2rem;
 }
 .DogCardHeader {
     font-family: Lora, "Times New Roman", serif;
+    font-size: 20px;
 }
 .DogCardDescription {
     font-family: "Roboto Light", sans-serif;
+    font-size: 12px;
 }
 .DogTags{
     display: flex;
