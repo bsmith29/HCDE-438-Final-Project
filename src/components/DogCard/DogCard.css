@@ -1,9 +1,45 @@
-.dogCard {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 2rem;
-    border-radius: 8px;
+.DogCard {
+    border-radius: 50px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.DogCard:hover {
+    transform: scale(1.05);
+}
+.DogCardContent {
+    display: flex;
+    flex-direction: column;
+}
+.DogImage{
+    border-radius: 50px 50px 0 0;
+}
+.DogCardHeader {
+    font-family: Lora, "Times New Roman", serif;
+}
+.DogCardDescription {
+    font-family: "Roboto Light", sans-serif;
+}
+.DogTags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+}
+.Heart{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.HeartImage{
+    width: 50px;
+    height: 50px;
+
+}
+.tag{
+    font-size: 0.75rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 40px;
+    background-color: #e9ecef;
+    color: #495057;
 }

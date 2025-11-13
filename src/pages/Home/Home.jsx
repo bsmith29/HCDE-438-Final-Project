@@ -2,8 +2,8 @@
 import React from 'react';
 import './Home.css';
 import {DogCard} from "../../components/DogCard/DogCard.jsx";
-import {Filter} from "../../components/Filter/Filter.jsx";
-import {NavBar} from "../../components/NavBar/NavBar.jsx";
+import NavBar from "../../components/NavBar/NavBar.jsx";
+// import {Filter} from "../../components/Filter/Filter.jsx";
 
 
 export function Home() {
@@ -16,15 +16,12 @@ export function Home() {
             <h2 className={"Title"}>PupSupport</h2>
             <p>Welcome to PupSupport!</p>
             <p>If you want to do some research on potential dogs, then this is the place to be!!</p>
+
             {/*The Nav Bar where the user can go to different pages */}
-            <div style={{ padding: '20px', margin: '10px' }}>
-                <ul>
-                    <li><a href="./pages/Home/Home.jsx">Home</a></li>
-                    <li><a href="./pages/Favorites.jsx">Favorites</a></li>
-                    <li><a href="./pages/Recommendations/Recommendations.jsx">Recommendations</a></li>
-                </ul>
-            </div>
-            < Filter />
+            <NavBar />
+            <p></p>
+
+            {/*< Filter />*/}
             {/*This consists of the different information a user can see at first glance on a specific dog*/}
             {/*Some content would include: The name of the dog, a description, and its temperament tags as well */}
             <DogCard />

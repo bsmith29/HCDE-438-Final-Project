@@ -1,0 +1,12 @@
+.NavBar {
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+    list-style-type: none;
+    justify-content: center;
+    background-color: #02075D;
+    padding: 5px 0;
+}
+.NavBar a:hover{
+    color: #F7E7CE;
+}
