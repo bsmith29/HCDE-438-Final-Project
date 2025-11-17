@@ -3,7 +3,8 @@ import React from 'react';
 import './Home.css';
 import {DogCard} from "../../components/DogCard/DogCard.jsx";
 import NavBar from "../../components/NavBar/NavBar.jsx";
-// import {Filter} from "../../components/Filter/Filter.jsx";
+// import Filter from "../../components/Filter/Filter.jsx";
+
 
 
 export function Home() {
@@ -24,6 +25,8 @@ export function Home() {
             {/*< Filter />*/}
             {/*This consists of the different information a user can see at first glance on a specific dog*/}
             {/*Some content would include: The name of the dog, a description, and its temperament tags as well */}
+
+            {/*The spot where the cards that represent each dog is here*/}
             <div className={"DogCardLayout"}>
                 <DogCard />
                 <DogCard />

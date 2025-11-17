@@ -6,6 +6,12 @@
     padding-top: 0;
     padding-bottom: 5px;
 }
+@media(max-width:800px) {
+    .Title{
+        font-size: 50px;
+    }
+
+}
 .DogCardLayout{
     display: flex;
     flex-direction: row;

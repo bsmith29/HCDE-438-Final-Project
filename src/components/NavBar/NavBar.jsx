@@ -5,7 +5,7 @@ import './NavBar.css';
 const NavBar = () => (
     <nav className="NavBar">
         <Link to="/">Home</Link>
-        <p></p>
+        <Link to="/Login">Login</Link>
         <Link to="/Favorites">Favorites</Link>
         <Link to="/Recommendations">Recommendations</Link>
     </nav>
