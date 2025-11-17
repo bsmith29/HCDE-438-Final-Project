@@ -9,7 +9,7 @@ This website pages includes:
 - Favorites Page: The location where all their saved dogs will go.  
 - Recommendations: Where users can look at different recommendations based on the breeds that they have previously favorited. This page will also include the different tips/ pieces of information that a user would want to look into when considering being a dog owner. 
 
-# Web Application Actions
+## Web Application Actions
 - Create Account
 - Log-in/out
 - Browse Dog Breeds
@@ -18,21 +18,29 @@ This website pages includes:
 - Look at recommendations 
 - Review tips that involve being a dog owner 
 
-# Tech Stack
+## Tech Stack
 - Frontend: React (with Vite)
 - Routing: React Router
 - Database: Firebase Firestore
 - Authentication: Firebase Authentication
-- Styling: CSS (separate files for components)
+- Styling: CSS (separate files for components and pages)
 
-# Firebase Setup Instructions
+## Firebase Setup Instructions
  1. Create a new Firebase project at firebase.google.com
 2. Enable Authentication (Email/Password method)
 3. Create a Firestore database
 4. Get your Firebase configuration from the Firebase console
 5. Add the configuration to the firebase.js file
 
-# React + Vite
+## Implementation Steps
+1. Set up Firebase Authentication
+2. Create user registration and login flows
+3. Implement the favorite component 
+4. Set up Firestore to store the user's favorite dog breeds and the users email
+5. Add protected routes for authenticated users
+6. Implement user profile management (logout and account deletion)
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
